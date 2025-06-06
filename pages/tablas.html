@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📊 Tablas</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>📊 Práctica de Tablas</h1>
+    <nav class="dropdown-nav">
+      <ul>
+        <li><a href="../index.html">🏠 Inicio</a></li>
+        <li><a href="formularios.html">📝 Formularios</a></li>
+        <li><a href="listas.html">📋 Listas</a></li>
+        <li><a href="multimedia.html">🎵 Multimedia</a></li>
+        <li><a href="semantica.html">🏗️ Semántica</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="fade-in">
+    <section>
+      <h2>📈 Tabla de Ejemplo</h2>
+      <div class="tabla-responsiva">
+        <table>
+          <thead>
+            <tr>
+              <th>📅 Fecha</th>
+              <th>📦 Producto</th>
+              <th colspan="2">📊 Ventas</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th>💵 Enero</th>
+              <th>💵 Febrero</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">2025</td>
+              <td>Zapatos</td>
+              <td>$1200</td>
+              <td>$1100</td>
+            </tr>
+            <tr>
+              <td>Camisas</td>
+              <td>$900</td>
+              <td>$950</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">📌 Datos simulados para práctica</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>📧 Contacto: <a href="mailto:miemail@ejemplo.com">miemail@ejemplo.com</a></p>
+  </footer>
+</body>
+</html>
