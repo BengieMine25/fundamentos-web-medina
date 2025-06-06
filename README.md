@@ -31,7 +31,7 @@ mi-proyecto-web/
     └── videos/
 
 Intalacion:
-1-Clonar el archivo desde githud con el siguiente comando (git clone https://github.com/tu-usuario/fundamentos-web-apellido.git) o descarga el achivo en .zip.
+1-Clonar el archivo desde githud con el siguiente comando (git clone https://github.com/bengiemine25/fundamentos-web-medina.git) o descarga el achivo en .zip.
 
 2-Abrir el proyecto localmente con tu navegador web (Chrome, Edge, OperaGX, etc) haciendo doble clip en el achivo index.html
 
